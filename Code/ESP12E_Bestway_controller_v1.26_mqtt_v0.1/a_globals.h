@@ -30,7 +30,7 @@ int filterOffHour = 3;                     //hardcoded for the moment. Stops the
 int filterOnHour = 9;
 int TZ = 2;                                //timezone (UTC + TZ = your local time) DST seems to not be implemented in the ESPDateTime.h library
 bool forbiddenHeaterHours[] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}; //Not fully used. Not tested. 
-const char* mqtt_server = "broker.mqtt-dashboard.com";
+const char* mqtt_server = "INSERT YOUR BROKER IP HERE";
 String outTopic = "outTopic";
 String inTopic = "inTopic";
 
